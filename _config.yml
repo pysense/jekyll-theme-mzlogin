@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://1057.pub/blog
+url: http://1057.pub/jekyll-theme-mzlogin
 date_format: "ordinal"
 title: Title
 subtitle: "SubTitle"
@@ -11,7 +11,7 @@ keywords: 1057
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: pysense/blog
+repository: pysense/jekyll-theme-mzlogin
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
