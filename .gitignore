@@ -1,0 +1,13 @@
+_site/
+*.sw[po]
+*.~vsd
+\#*\#
+*~
+.DS_Store
+Gemfile.lock
+.vscode/
+.jekyll-metadata
+_v_recycle_bin
+vx.json
+vx_notebook/
+vx_recycle_bin/
