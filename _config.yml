@@ -4,10 +4,10 @@
 baseurl:
 url: http://1057.pub/jekyll-theme-mzlogin
 date_format: "ordinal"
-title: Title
-subtitle: "SubTitle"
+title: 1057
+subtitle: "学习，解决问题，记录"
 description: "Desc"
-keywords: 1057
+keywords: jekyll, github pages
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -104,7 +104,8 @@ paginate: 10
 lsi: false
 quiet: false
 excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
+#permalink: /:year/:month/:day/:title/
+permalink: /posts/:title/
 plugins:
     - jekyll-github-metadata
     - rouge
@@ -118,6 +119,14 @@ collections:
     wiki:
         output: true
         permalink: /wiki/:path/
+exclude:
+  - README.md
+  - LICENSE
+  - '*.bat'
+  - _v_recycle_bin
+  - vx.json
+  - vx_notebook
+  - vx_recycle_bin
 
 # ---------------- #
 #      Comments    #
